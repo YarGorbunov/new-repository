@@ -1,0 +1,79 @@
+html{
+	background-color:lightgray;
+}
+header {
+	text-align: center;
+	background-color:white;
+}
+header a {
+	display:inline-flex;
+	margin: 25px 30px;
+	padding:0;
+	color:black;
+	text-transform:uppercase;
+}
+#Main{
+	color:#22b967;
+	border:none
+}
+main{
+	background-color:white;
+}
+ul li img {
+	width: 30px;
+	height: 30px;
+	margin: 0 2px 0 2px;
+}
+ul {
+	list-style:none;
+	text-align:center;
+	margin: 5px 0 30px 0;
+	padding:100px 40px 0 40px;
+}
+li {
+	display: inline-flex;
+}
+hr {
+	display:inline-flex;
+	width:20%;
+	margin:0 0 3px 0;
+	background-color:#22b967;
+	border:none;
+}
+hr + div {
+	display:inline-flex;
+	padding:0;
+	margin: 5px 0;
+}
+.podpis {
+	text-align:center;
+}
+#Logo {
+	text-align:center;
+	width:60%;
+	height:15em;
+	margin:0 auto 50px auto;
+	padding:0;
+	display:block;
+}
+#slider {
+	background-color:gray;
+	display:block;
+	text-align:center;
+	padding:300px 230px 200px 230px;
+	color:#ccc;
+}
+#slider p {
+	font-style:italic;
+	margin: 0 0 50px 0;
+}
+#slider a:visited{
+	color:white;
+}
+#slider a {
+	padding:10px;
+	background-color:#22b967;
+}
+a {
+	text-decoration:none;
+}
