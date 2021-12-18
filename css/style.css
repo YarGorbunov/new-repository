@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'Lobster';
+	src: url("../fonts/Lobster.ttf") format("truetype"));
+	font-style:normal;
+	font-weight:normal;
+}
+@font-face {
+	font-family: 'PressStart2P-Regular';
+	src: url("../fonts/PressStart2P-Regular.ttf") format("truetype"));
+	font-style:normal;
+	font-weight:normal;
+}
 html{
 	background-color:lightgray;
 }
@@ -11,10 +23,18 @@ header a {
 	padding:0;
 	color:black;
 	text-transform:uppercase;
+	font-family: Courier New;
+	font-weight:bold;
+}
+header a:hover {
+	color:#22b967;
 }
 #Main{
 	color:#22b967;
 	border:none
+}
+#Main:hover {
+	color:black;
 }
 main{
 	background-color:white;
@@ -44,6 +64,7 @@ hr + div {
 	display:inline-flex;
 	padding:0;
 	margin: 5px 0;
+	font-family: 'PressStart2P-Regular';
 }
 .podpis {
 	text-align:center;
@@ -73,6 +94,9 @@ hr + div {
 #slider a {
 	padding:10px;
 	background-color:#22b967;
+}
+#slider a:hover {
+	color:black;
 }
 a {
 	text-decoration:none;
