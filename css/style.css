@@ -1,11 +1,13 @@
 @font-face {
 	font-family: 'Lobster';
-	src: url("../fonts/Lobster.ttf") format("truetype"));
+	src: url("../fonts/Lobster.ttf");
+	src: url("Lobster.ttf") format("truetype"));
 	font-style:normal;
 	font-weight:normal;
 }
 @font-face {
 	font-family: 'PressStart2P-Regular';
+	src: url("../fonts/PressStart2P-Regular.ttf");
 	src: url("../fonts/PressStart2P-Regular.ttf") format("truetype"));
 	font-style:normal;
 	font-weight:normal;
@@ -31,13 +33,20 @@ header a:hover {
 }
 #Main{
 	color:#22b967;
-	border:none
+	border:none;
+	text-decoration:none !important;
 }
 #Main:hover {
 	color:black;
 }
+#Main:focus {
+	border:none !important;
+}
 main{
 	background-color:white;
+}
+body {
+	margin:0;
 }
 ul li img {
 	width: 30px;
@@ -64,7 +73,7 @@ hr + div {
 	display:inline-flex;
 	padding:0;
 	margin: 5px 0;
-	font-family: 'PressStart2P-Regular';
+	font-family: 'Lobster';
 }
 .podpis {
 	text-align:center;
@@ -94,6 +103,7 @@ hr + div {
 #slider a {
 	padding:10px;
 	background-color:#22b967;
+	color:white;
 }
 #slider a:hover {
 	color:black;
